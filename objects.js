@@ -1,8 +1,4 @@
-function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  obj[key] = value
-  return obj
+function updateObjectWithKeyAndValue(obj, key, value) {
+ 
+  return Object.assign({}, obj, { [key]: value })
 }
- 
-const recipe = { eggs: 3 }
- 
-destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups')
