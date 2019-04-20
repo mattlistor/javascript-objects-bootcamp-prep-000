@@ -1,5 +1,0 @@
-var meals = {
-  breakfast:
-  "oatmeal" 
-};
-
