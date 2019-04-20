@@ -6,3 +6,7 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 const recipe = { eggs: 3 }
  
 updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup')
+
+function updateObjectWithObject(targetObject, updatesObject) {
+  return Object.assign({}, targetObject, updatesObject)
+}
